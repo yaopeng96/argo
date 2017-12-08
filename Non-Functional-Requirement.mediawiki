@@ -4,3 +4,16 @@
    The system prompts user to be next steps to be access during process of system.
    The system should able to calculate the total amount of bill at end of user orders.
    The system enables to display final order of confirmation.
+
+2. Availability
+   The system should be available 24 hours per day especially during weekends and Public Holiday.
+   The system enables to have recover plan (backup) in order to avoid any unexpected problems.
+
+3. Reliability
+   The system should be crash not more than once per 5 hours in a day.
+   The system able reload again and function as perfect normal after the crash happened.
+   
+4. Security
+   The system will be connected to a secured database.
+   The system will have different types of users and each user has limited access.
+   Admin will have full access to the system to resolve any issues that may be happens.
