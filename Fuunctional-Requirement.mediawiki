@@ -1,4 +1,3 @@
-Functional Requirement
 
 1. Register Account (buyer, seller)
    Buyer/Seller shall register as a member to access the purchasing system.
