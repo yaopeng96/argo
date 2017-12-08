@@ -1,0 +1,53 @@
+Functional Requirement
+
+1. Register Account (buyer, seller)
+   Buyer/Seller shall register as a member to access the purchasing system.
+   Buyer/Seller shall insert username, password, email, phone number and address to register and access the system.
+
+2. Login System (buyer, seller, admin)
+   Buyer/Seller/Administrator shall insert username and password to login to the system.
+   The system shall display an error message if the buyer/seller/administrator insert either username or password incorrectly.
+   Buyer/Seller/Administrator can reset the password or username if the user insert wrongly.
+   The system will shut down if the Buyer/Seller/Administrator wrongly insert password more than 5 times.
+
+3. Manage Personal Information (buyer, seller)
+   Buyer/Seller shall able to update their personal information such as user name, password, email, phone number and address.
+   The system shall verify the old password before change to new password.
+   The system shall display successful message if the buyer/seller confirm making change for personal information.
+   The system shall display error message to buyer/seller if their insert wrong old password.
+   The system shall display declined message if the buyer/seller decline making change for personal information.
+
+4. View Product Detail (buyer)
+   The system shall display detailed information of the products  to the buyer such as product name, price, picture, rating and etc.
+   The system shall display detailed product categorization to the buyer.
+
+5. Search Product (admin, buyer, seller)
+   The system shall enable administrator/buyer/seller to enter the search text on the screen.
+   The system shall enable administrator/buyer/seller to select multiple options on the screen to search.
+   The system shall display all the matching products based on the search
+   The system shall display only 10 matching result on the current screen.
+   The system shall enable administrator/buyer/seller/visitor to navigate between the search results.
+   The system shall notify the administrator/buyer/seller/visitor when no matching product is found on the search.
+
+6. Make Order (buyer)
+   The system shall provide shopping cart.The system shall provide shopping cart.
+   The system shall allow buyer to add a products in the shopping cart.
+   The system shall allow buyer to remove a products from the shopping cart.
+   The system shall allow buyer to view the list of products in the shopping cart.
+   The system shall display confirmation message if the user select the finish order button.
+   The system shall display successful message if the user confirm to make an order from the confirmation message.
+   The system shall display “no order in the cart” message if the user did not make an order after select the confirm button.
+   The system shall display declined message if the buyer decline the order from the confirmation message.
+
+7. Make Payment (buyer, admin)
+   The system shall display detailed invoice for current order once it is confirmed.
+   The system shall display the buyer information such as username, delivery address, telephone number, list of order and total payment, seller name and etc.
+   The system shall allow buyer to view the detailed invoice.
+   The system shall allow buyer to print the invoice.
+
+8. Manage Sales Product (seller, admin)
+   Seller/admin can add product(s) according to the category to the system.
+   Seller/admin can delete product(s) according to the category to the system.    
+   Seller/admin can update the product information from the system.
+   The system shall display confirmation message to seller/admin for the existing change of the product information.
+   The system shall display declined message if the seller/admin decline making change of the sales product.
