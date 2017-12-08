@@ -1,0 +1,6 @@
+1. Performance
+   The system database shall able to accommodate high number of user without any failed.
+   The system should be able to take any kind of orders, once user clicked on the respective button.
+   The system prompts user to be next steps to be access during process of system.
+   The system should able to calculate the total amount of bill at end of user orders.
+   The system enables to display final order of confirmation.
